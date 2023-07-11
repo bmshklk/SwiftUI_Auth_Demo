@@ -11,7 +11,6 @@
 		1E8A08F42A5D534C00F17760 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A08F32A5D534C00F17760 /* HomeView.swift */; };
 		1E8A08FD2A5DB39C00F17760 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 1E8A08FC2A5DB39C00F17760 /* Factory */; };
 		1EEE6CA92A5989CC00FFEFAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EEE6CA82A5989CC00FFEFAC /* Preview Assets.xcassets */; };
-		1EEE6D312A5995BC00FFEFAC /* mockup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EEE6CB72A5995BC00FFEFAC /* mockup.png */; };
 		1EEE6D322A5995BC00FFEFAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EEE6CB82A5995BC00FFEFAC /* Assets.xcassets */; };
 		1EEE6D332A5995BC00FFEFAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1EEE6CBA2A5995BC00FFEFAC /* GoogleService-Info.plist */; };
 		1EEE6D352A5995BC00FFEFAC /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EEE6CBE2A5995BC00FFEFAC /* Poppins-ExtraLight.ttf */; };
@@ -86,7 +85,6 @@
 		1EEE6CB12A5995BC00FFEFAC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		1EEE6CB22A5995BC00FFEFAC /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		1EEE6CB52A5995BC00FFEFAC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1EEE6CB72A5995BC00FFEFAC /* mockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mockup.png; sourceTree = "<group>"; };
 		1EEE6CB82A5995BC00FFEFAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EEE6CBA2A5995BC00FFEFAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1EEE6CBB2A5995BC00FFEFAC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -234,7 +232,6 @@
 		1EEE6CB62A5995BC00FFEFAC /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				1EEE6CB72A5995BC00FFEFAC /* mockup.png */,
 				1EEE6CB82A5995BC00FFEFAC /* Assets.xcassets */,
 			);
 			path = Images;
@@ -732,7 +729,6 @@
 				1EEE6D452A5995BC00FFEFAC /* Poppins-SemiBold.ttf in Resources */,
 				1EEE6CA92A5989CC00FFEFAC /* Preview Assets.xcassets in Resources */,
 				1EEE6D322A5995BC00FFEFAC /* Assets.xcassets in Resources */,
-				1EEE6D312A5995BC00FFEFAC /* mockup.png in Resources */,
 				1EEE6D3E2A5995BC00FFEFAC /* Poppins-BlackItalic.ttf in Resources */,
 				1EEE6D3C2A5995BC00FFEFAC /* Poppins-ExtraBoldItalic.ttf in Resources */,
 				1EEE6D412A5995BC00FFEFAC /* Poppins-LightItalic.ttf in Resources */,
