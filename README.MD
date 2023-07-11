@@ -7,8 +7,10 @@ This is an example project showcasing the implementation of a registration flow 
 
 ## Features
 
-- **Design Patterns**: The project follows the MVVM (Model-View-ViewModel) and Coordinator design patterns
+- **Design Patterns**: The project follows the MVVM (Model-View-ViewModel) and Coordinator (Router) design patterns
 - **Firebase Authentication**: Users can log in using their email, Google account, or Apple ID, leveraging the Firebase Authentication service.
+
+**Check out [swiftui_with_uikit branch](https://github.com/bmshklk/SwiftUI_Auth_Demo/tree/swiftui_with_uikit) for the UIKit + SwiftUI implementation revision**
 
 ## Installation
 
