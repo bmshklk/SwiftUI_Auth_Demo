@@ -1,0 +1,9 @@
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+STRING_NETWORK_BASE_URLL=\@\"${NETWORK_BASE_URL}\"
+
+APP_NAME = AppTemplate
+PRODUCT_BUNDLE_IDENTIFIER = com.awesome.company.switui.registration.test
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) NETWORK_BASE_URL=$(STRING_NETWORK_BASE_URLL) LOGGING_ENABLED=$(LOGGING_ENABLED)
