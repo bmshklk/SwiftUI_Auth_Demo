@@ -1,0 +1,12 @@
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+STRING_NETWORK_BASE_URLL=\@\"${NETWORK_BASE_URL}\"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) NETWORK_BASE_URL=$(STRING_NETWORK_BASE_URLL) LOGGING_ENABLED=$(LOGGING_ENABLED)
+
+// MARK: - Other flags
+APP_NAME = AppTemplate
+PRODUCT_BUNDLE_IDENTIFIER = com.awesome.company.switui.registration.test
+SWIFT_OBJC_BRIDGING_HEADER = $(SRCROOT)/SwiftUI_Coordinators/Source/App/BridgingHeaders/Application-Bridging-Header.h
+INFOPLIST_FILE = ${SRCROOT}/SwiftUI_Coordinators/Resources/Plists/Info.plist
